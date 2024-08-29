@@ -1,0 +1,6 @@
+[submodule "node_modules/.pnpm/@layerzerolabs+toolbox-foundry@0.1.9/node_modules/@layerzerolabs/toolbox-foundry/lib/layerzero-v2"]
+	path = node_modules/.pnpm/@layerzerolabs+toolbox-foundry@0.1.9/node_modules/@layerzerolabs/toolbox-foundry/lib/layerzero-v2
+	url = https://github.com/LayerZero-Labs/layerzero-v2
+[submodule "node_modules/.pnpm/@layerzerolabs+toolbox-foundry@0.1.9/node_modules/@layerzerolabs/toolbox-foundry/lib/openzeppelin-contracts"]
+	path = node_modules/.pnpm/@layerzerolabs+toolbox-foundry@0.1.9/node_modules/@layerzerolabs/toolbox-foundry/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts

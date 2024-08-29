@@ -38,7 +38,7 @@ contract xERC20LayerZero is Ownable, OApp {
     error ChainIdNotSet();
     error OriginNotMirrorAdapter();
 
-    constructor(uint256 _feeBps, address _endpoint) OApp(_endpoint, msg.sender) Ownable() {
+    constructor(uint256 _feeBps, address _endpoint) OApp(_endpoint, msg.sender) Ownable(msg.sender) {
         feeBps = _feeBps;
 
         // known chain ids
